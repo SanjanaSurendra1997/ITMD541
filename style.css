@@ -2,6 +2,10 @@ body
 {
   background-color: #FFCDD2;
 }
+h1
+{
+  color: red;
+}
 p 
 {
   color: powderblue;
