@@ -1,15 +1,14 @@
 body 
 {
-  background-color: powderblue;
-}
-h1 
-{
-  color: red;
-  text-align: center;
+  background-color: #FFCDD2;
 }
 p 
 {
-  color: blue;
+  color: powderblue;
+}
+li
+{
+  color: powderblue;
 }
 img
 {
