@@ -1,9 +1,12 @@
-body {
-  background-color: powderblue;
+body 
+{
+  background-image: url("i2.jpg");
 }
-h1 {
-  color: blue;
-}
-p {
+h1 
+{
   color: red;
+}
+p 
+{
+  color: black;
 }
