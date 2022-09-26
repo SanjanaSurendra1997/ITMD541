@@ -60,8 +60,11 @@ ul {
 
 /* Grid Part 1 */
 
-#grid-section1 .grid {
-
+#grid-section1 .grid 
+{
+	display: grid;
+	grid: 1fr 1fr 1fr 1fr;
+	grid-gap: 20px;
 }
 
 /* end Grid Part 1 */
