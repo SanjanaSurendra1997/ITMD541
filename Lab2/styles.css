@@ -24,16 +24,19 @@
 }
 
 #flex-section2 .item1 {
+	display: flex;
 	order: 1;
 
 }
 
 #flex-section2 .item2 {
+	display: flex;
 	order: 3;
 
 }
 
 #flex-section2 .item3 {
+	display: flex;
 	order:2;
 }
 
@@ -50,8 +53,10 @@
 }
 
 #flex-section3 .tags ul {
-	flex-direction: row;
-	align-content: flex-start;
+	display: flex;
+    	flex-direction: row;
+   	flex-wrap: wrap;
+    	justify-content: flex-start;
 
 }
 
