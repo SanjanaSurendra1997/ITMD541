@@ -22,6 +22,9 @@ ul {
 #flex-section2 li 
 {
 	flex-direction: column;
+	flex-grow: 1;
+    	flex-shrink: 1;
+  	flex-basis: 0%;
 }
 #flex-section2 .item1 
 {
