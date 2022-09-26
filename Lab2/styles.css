@@ -14,11 +14,12 @@
 
 #flex-section2 ul 
 {
-	
+	display: flex;
+	flex-direction: column;
 }
 
 #flex-section2 li {
-	flex-direction: column;
+	
 
 }
 
