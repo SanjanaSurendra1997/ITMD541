@@ -73,6 +73,7 @@ ul {
 	grid-row-end: 4;
 	grid-column-start: 2;
 	grid-column-end: 4;
+	z-index: 1;
 }
 #grid-section2 .gridboxred 
 {
