@@ -14,7 +14,8 @@
 
 #flex-section2 ul 
 {
-	align-items: flex-start;
+	flex-direction: column;
+	
 }
 
 #flex-section2 li {
