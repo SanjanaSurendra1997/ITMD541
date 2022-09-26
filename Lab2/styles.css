@@ -43,10 +43,12 @@
 /* Flexbox Part 3 */
 
 #flex-section3 .box {
-
+	display: flex;
+	align-items: center;
 }
 
 #flex-section3 .tags ul {
+	 align-content: flex-start
 
 }
 
