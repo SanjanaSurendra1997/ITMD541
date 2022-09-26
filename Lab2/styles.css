@@ -9,7 +9,7 @@ ul {
 #flex-section1 ul
 {
 	display: flex;
-      	justify-content: space-around;
+      	justify-content: space-evenly;
 }
 /* end Flexbox Part 1 */
 
