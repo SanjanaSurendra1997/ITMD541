@@ -65,7 +65,7 @@ ul {
 	display: grid;
     	grid-template-columns: 1fr 1fr 1fr 1fr;
    	grid-gap: 20px;
-    	grid-template-rows: repeat(2, 100px);
+    	grid-auto-rows: 100px;
 }
 /* end Grid Part 1 */
 
