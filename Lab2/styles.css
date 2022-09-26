@@ -44,11 +44,11 @@
 
 #flex-section3 .box {
 	display: flex;
-	align-items: center;
+	justify-content: center;
 }
 
 #flex-section3 .tags ul {
-	 align-content: flex-start
+	 align-content: flex-start;
 
 }
 
