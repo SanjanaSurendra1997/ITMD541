@@ -45,11 +45,11 @@
 #flex-section3 .box {
 	display: flex;
 	justify-content: center;
-	align-content: center;
 }
 
 #flex-section3 .tags ul {
-	 align-content: flex-start;
+	flex-direction: row;
+	align-content: flex-start;
 
 }
 
