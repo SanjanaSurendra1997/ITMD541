@@ -10,7 +10,6 @@
         border: 2px solid rrgb(76, 187, 23);
 }
 
-
 .body
 {
     	display: flex;
@@ -61,12 +60,6 @@
 	align-items: flex-end;
 }
 
-.if-input-boxes 
-{
-	display: flex;
-   	align-items: center;
-	gap: 1rem;
-}
 .if-input-boxes 
 {
 	display: flex;
