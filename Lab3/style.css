@@ -87,13 +87,3 @@
    	align-items: center;
 	gap: 1.5rem;
 }
-
-.if-submit
-{
-	display: flex;
-	gap: 2rem;
-	padding: 2rem 2rem;
-    	height: 2rem;
-   	width: auto;
-}
- 
