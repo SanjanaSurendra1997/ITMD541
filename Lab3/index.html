@@ -62,7 +62,7 @@
                 	{
                     		document.getElementById("Tip%").value= TipVal;
                     		let tipamount = parseFloat(BillTotalVal * (TipVal/100)).toFixed(2);
-                    		let totalbill = BillTotalVal + tipamount;
+                    		let totalbill = parseFloat(BillTotalVal + tipamount).toFixed(2);
                    	 	document.getElementById("TipAmt").value= tipamount;
                     		document.getElementById("Total").value= totalbill;
                 	}
