@@ -4,10 +4,10 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        background-color: rgb(95, 158, 160);
+        background-color: rgb(147, 197, 114);
         margin: 0 auto;
         width: 50%;
-        border: 2px solid rgb(0, 0, 0);
+        border: 2px solid rrgb(76, 187, 23);
 }
 
 
@@ -33,13 +33,6 @@
     	flex-direction: column;
    	align-items: center;
     	width: 100%;
-}
-
-.if-calculate
-{
-    	display: flex;
-	width: 100%;
-    	align-items: center;
 }
 
 .if-input-form 
