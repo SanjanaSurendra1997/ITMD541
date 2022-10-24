@@ -9,7 +9,7 @@
  </head> 
  <body>
     <div class="header">
-        <h4>ITMD-541 Lab 3 - Sanjana Surendra </h4>
+        <h4>ITMD 541 - Lab 3 - Sanjana Surendra </h4>
         <h1>Tip Calculator</h1>
     </div>
     <div class="content">
@@ -44,37 +44,37 @@
 	</div>
     <script>
      document.addEventListener('DOMContentLoaded',function () 
+     {
+     	document.getElementById('BillTotal').addEventListener('change',function()
         {
-            document.getElementById('BillTotal').addEventListener('change',function()
-            {
-             let BillTotalVal = parseFloat(document.getElementById("BillTotal").value);
-               document.getElementById('tipr').addEventListener('change',function()
+         	let BillTotalVal = parseFloat(document.getElementById("BillTotal").value);
+             	document.getElementById('tipr').addEventListener('change',function()
                 {
-                    let TipVal = parseFloat(document.getElementById("tipr").value);
+                 	let TipVal = parseFloat(document.getElementById("tipr").value);
                 
-                if(isNaN(BillTotalVal) || BillTotalVal <= 0)
-                {
-                    alert("BillTotal should not be empty or should be greater than zero");
-                    document.getElementById('BillTotal').value = '';
-                    BillTotalVal = "";
-                }
-                if(BillTotalVal != "")
-                {
-                    document.getElementById("Tip%").value= TipVal;
-                    let tipamount = BillTotalVal * (TipVal/100);
-                    let totalbill = BillTotalVal + tipamount;
-                    document.getElementById("TipAmt").value= tipamount;
-                    document.getElementById("Total").value= totalbill;
-                }
-                else
-                {
-                    document.getElementById('TipAmt').value = '';
-                    document.getElementById('Total').value = '';
-                    document.getElementById('tipr').value = '';
-                }
-              }); 
-            });
+                	if(isNaN(BillTotalVal) || BillTotalVal <= 0)
+                	{
+                    		alert("BillTotal should not be empty or should be greater than zero");
+                    		document.getElementById('BillTotal').value = '';
+                    		BillTotalVal = "";
+                	}
+                	if(BillTotalVal != "")
+                	{
+                    		document.getElementById("Tip%").value= TipVal;
+                    		let tipamount = BillTotalVal * (TipVal/100);
+                    		let totalbill = BillTotalVal + tipamount;
+                   	 	document.getElementById("TipAmt").value= tipamount;
+                    		document.getElementById("Total").value= totalbill;
+                	}
+                	else
+                	{
+                    		document.getElementById('TipAmt').value = '';
+                    		document.getElementById('Total').value = '';
+                    		document.getElementById('tipr').value = '';
+                	}
+              	}); 
         });
+     });
     </script>
- </body>  
+  </body>  
 </html>
