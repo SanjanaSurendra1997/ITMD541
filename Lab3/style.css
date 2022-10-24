@@ -7,7 +7,7 @@
         background-color: rgb(147, 197, 114);
         margin: 0 auto;
         width: 50%;
-        border: 2px solid rrgb(76, 187, 23);
+        border: 2px solid rgb(34, 139, 34);
 }
 
 .body
@@ -32,7 +32,7 @@
 	max-width: 500px;
 	text-align: center;
 	margin: 0 auto;
-	border: 4px solid rgb(34, 139, 34);
+	border: 4px solid rgb(80, 200, 120);
 	margin-top: 10px;
 }
 
