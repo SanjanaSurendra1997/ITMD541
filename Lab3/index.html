@@ -47,14 +47,14 @@
      {
      	document.getElementById('BillTotal').addEventListener('change',function()
         {
-         	let BillTotalVal = parseFloat(document.getElementById("BillTotal").value);
+         	let BillTotalVal = parseFloat(document.getElementById("BillTotal").value.toFixed(2));
              	document.getElementById('tipr').addEventListener('change',function()
                 {
                  	let TipVal = parseFloat(document.getElementById("tipr").value);
                 
                 	if(isNaN(BillTotalVal) || BillTotalVal <= 0)
                 	{
-                    		alert("BillTotal should not be empty or should be greater than zero");
+                    		alert("Bill Total cannot be empty and should be greater than zero!");
                     		document.getElementById('BillTotal').value = '';
                     		BillTotalVal = "";
                 	}
