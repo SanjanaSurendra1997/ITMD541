@@ -1,5 +1,6 @@
 
-.header{
+.header
+{
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -11,34 +12,39 @@
 }
 
 
-.body{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.body
+{
+    	display: flex;
+    	flex-direction: column;
+    	align-items: center;
 	font-family: Arial, Helvetica;
 	text-align: center;
 }
 
-.calculate{
-    width: 100%;
+.calculate
+{
+    	width: 100%;
 	display: flex;
-    align-items: center;
+    	align-items: center;
 }
 
-.content{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
+.content
+{
+    	display: flex;
+    	flex-direction: column;
+   	align-items: center;
+    	width: 100%;
 }
 
-.if-calculate{
-    width: 100%;
+.if-calculate
+{
+    	width: 100%;
 	display: flex;
-    align-items: center;
+    	align-items: center;
 }
 
-.if-input-form {
+.if-input-form 
+{
 	max-width: 500px;
 	text-align: center;
 	margin: 0 auto;
@@ -46,32 +52,36 @@
 	margin-top: 10px;
 }
 
-.if-inputs{
+.if-inputs
+{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	padding-right: 1rem;
 	padding-left: 1rem;
-    background-color: lightgrey;
+    	background-color: lightgrey;
 }
 
-.if-boxes{
+.if-boxes
+{
 	display: flex;
 	flex-direction: column;
 	align-items: flex-end;
 }
 
-.if-input-boxes {
+.if-input-boxes 
+{
 	display: flex;
-    align-items: center;
+   	align-items: center;
 	gap: 1rem;
 }
 
-.if-submit{
+.if-submit
+{
 	display: flex;
 	gap: 2rem;
 	padding: 2rem 2rem;
-    height: 2rem;
-    width: auto;
+    	height: 2rem;
+   	width: auto;
 }
  
