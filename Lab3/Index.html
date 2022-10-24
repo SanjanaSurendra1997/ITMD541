@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculator </title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+ </head> 
+ <body>
+    <div class="header">
+        <h4>ITMD-541 Lab 3 - Sanjana Surendra </h4>
+        <h1>Tip Calculator</h1>
+    </div>
+    <div class="content">
+		<section class="if-calculate">
+			<form class="if-input-form">
+                <div class="if-inputs">
+                    <div class="if-boxes">
+                        <div class="if-input-boxes" id="BillTotalbox">
+                            <label for="BillTotal">Bill Total: </label>
+                            <input type="text" name="BillTotal" id="BillTotal"><br><br>
+                        </div>
+                        <div class="if-input-boxes" id="tiprange">
+                            <label for="tipr">Tip: </label>
+                            <input type="range" id="tipr" name="Tip" min="0" max="100"><br><br>
+                        </div>
+                        <div class="if-input-boxes">
+                            <label for="Tip%">Tip Percentage: </label>
+                            <input type="text" name="Tip%" id="Tip%" disabled=""><br><br>
+                        </div>
+                        <div class="if-input-boxes">
+                            <label for="TipAmt">Tip Amount:</label>
+                            <input type="text" name="TipAmt" id="TipAmt" disabled=""><br><br>
+                        </div>
+                        <div class="if-input-boxes">
+                            <label for="Total">Total Bill with Tip: </label>
+                            <input type="text" name="Total" id="Total" disabled=""><br><br>
+                        </div>	
+                    </div>
+                </div>
+			</form>
+		</section>
+	</div>
+    <script>
+     document.addEventListener('DOMContentLoaded',function () 
+        {
+            document.getElementById('BillTotal').addEventListener('change',function()
+            {
+             let BillTotalVal = parseFloat(document.getElementById("BillTotal").value);
+               document.getElementById('tipr').addEventListener('change',function()
+                {
+                    let TipVal = parseFloat(document.getElementById("tipr").value);
+                
+                if(isNaN(BillTotalVal) || BillTotalVal <= 0)
+                {
+                    alert("BillTotal should not be empty or should be greater than zero");
+                    document.getElementById('BillTotal').value = '';
+                    BillTotalVal = "";
+                }
+                if(BillTotalVal != "")
+                {
+                    document.getElementById("Tip%").value= TipVal;
+                    let tipamount = BillTotalVal * (TipVal/100);
+                    let totalbill = BillTotalVal + tipamount;
+                    document.getElementById("TipAmt").value= tipamount;
+                    document.getElementById("Total").value= totalbill;
+                }
+                else
+                {
+                    document.getElementById('TipAmt').value = '';
+                    document.getElementById('Total').value = '';
+                    document.getElementById('tipr').value = '';
+                }
+              }); 
+            });
+        });
+    </script>
+ </body>  
+</html>
