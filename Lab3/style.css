@@ -58,7 +58,7 @@
 	align-items: center;
 	padding-right: 5rem;
 	padding-left: 5rem;
-    	background-color: lightgrey;
+    	background-color: #AFE1AF;
 }
 
 .if-boxes
@@ -85,7 +85,7 @@
 {
 	display: flex;
    	align-items: center;
-	gap: 2rem;
+	gap: 1.5rem;
 }
 
 .if-submit
