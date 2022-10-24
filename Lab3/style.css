@@ -22,8 +22,8 @@
 
 .calculate
 {
-    	width: 100%;
-	display: flex;
+    	display: flex;
+	width: 100%;
     	align-items: center;
 }
 
@@ -37,8 +37,8 @@
 
 .if-calculate
 {
-    	width: 100%;
-	display: flex;
+    	display: flex;
+	width: 100%;
     	align-items: center;
 }
 
@@ -56,8 +56,8 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	padding-right: 1rem;
-	padding-left: 1rem;
+	padding-right: 5rem;
+	padding-left: 5rem;
     	background-color: lightgrey;
 }
 
@@ -73,6 +73,19 @@
 	display: flex;
    	align-items: center;
 	gap: 1rem;
+}
+.if-input-boxes 
+{
+	display: flex;
+   	align-items: center;
+	gap: 1rem;
+}
+
+.if-range-box
+{
+	display: flex;
+   	align-items: center;
+	gap: 2rem;
 }
 
 .if-submit
