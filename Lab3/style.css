@@ -8,6 +8,7 @@
         margin: 0 auto;
         width: 50%;
         border: 2px solid rgb(34, 139, 34);
+	padding-top: 200px;
 }
 
 .body
@@ -25,6 +26,14 @@
     	flex-direction: column;
    	align-items: center;
     	width: 100%;
+}
+
+.if-calculate
+{
+
+    	width: 100%;
+	display: flex;
+    	align-items: center;
 }
 
 .if-input-form 
