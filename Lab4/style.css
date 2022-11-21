@@ -1,0 +1,114 @@
+*,
+*:before, *:after 
+{
+  box-sizing: border-box;
+}
+
+.head 
+{
+    width: 900px;
+    padding: 10px;
+    margin: 20px;
+    border: 10px solid rgb(100, 149, 237);
+    background-color:rgb(139, 211, 232);
+    font-family: 'Lucida Sans';
+    font-style: italic;
+}
+
+.header 
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+input 
+{
+    width: 240px;
+    height: 40px;
+    background-color:rgb(224, 226, 226);
+    font-family: 'Lucida Sans';
+    font-style: italic;
+    font-size: large;
+}
+
+.btn
+{
+    border-radius: 12px;
+    color: #18191a;
+    border: 2px solid rgb(100, 149, 237);
+    background-color: rgb(132, 213, 234);
+    font-family: 'Lucida Sans';
+    font-style: italic;
+    font-size: large;
+}
+
+.search 
+{
+    padding: 25px 0 250px 0;
+}
+
+.wrapper {
+    max-width: 940px;
+    margin: 0 auto;
+}
+body {
+    font-size: 16px;
+    line-height: 1;
+    align-content: center;
+    margin: 40px;
+    color: rgb(4, 4, 4);
+   
+}
+
+.container-forecast {
+    width: 100%;
+    float: right;
+    border-radius: 6px;
+    max-height: 150px;
+}
+
+section {
+    overflow: auto;
+    clear: both;
+    width: 100%;
+  }
+  .container-forecast {
+    width: 100%;
+    float: right;
+    border-radius: 6px;
+    max-height: 150px;
+}
+
+section {
+    overflow: auto;
+    clear: both;
+    width: 100%;
+  }
+
+  .card-body {
+    font-family: 'Lucida Sans';
+    font-weight:bold;
+    line-height: 28px;
+    text-align: center;
+    background-color: #f0f5fb;
+    color: #18191a;
+    width: 910px;
+}
+
+.card-header {
+    font-size: 28px;
+    color: rgb(16, 15, 15);
+    text-align: center;
+}
+.list-group-item {
+    color: slategray;
+}
+
+/* Maintains side margins - small view ports */
+@media only screen and (max-width: 980px) {
+    .wrapper { 
+        margin: 0 20px;
+    }
+}
